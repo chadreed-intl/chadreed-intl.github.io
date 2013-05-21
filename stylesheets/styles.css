@@ -712,7 +712,6 @@ dt {
   max-width: 650px;
   margin: 0 auto;
   padding: 0 10px;
-  background: blue;
   margin: 6px auto;
 }
 #header nav li {
@@ -767,7 +766,7 @@ dt {
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
 }
 #header nav li.fork {
-  float: left;
+  float: right;
   margin-left: 0px;
 }
 #header nav li.downloads {
@@ -778,6 +777,10 @@ dt {
   float: right;
   margin-right: 10px;
   font-size: 11px;
+}
+
+.linkIn{
+  padding:;
 }
 
 section {
@@ -848,4 +851,27 @@ section #title .credits.right {
   nav {
     display: none;
   }
+}
+
+.icon-twitter {
+  font-size: 3em;
+}
+
+.icon-github-sign {
+  font-size: 3em;
+  margin-left: 20px;
+}
+
+.icon-linkedin-sign {
+  font-size: 3em;
+  margin-left: 20px;
+}
+
+.icon-envelope-alt {
+  font-size: 45px;
+  margin-left: 20px;
+}
+
+.navbar {
+  float: right;
 }
