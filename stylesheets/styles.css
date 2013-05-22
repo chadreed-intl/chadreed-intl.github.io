@@ -880,3 +880,29 @@ section #title .credits.right {
 .navbar {
   text-align: center;
 }
+
+.playP {
+ float: left;
+}
+
+.playNow {
+  float: right;
+}
+
+.goP {
+ float: right;
+ margin-top: 3px;
+ margin-right: 15px;
+}
+
+.goNow {
+  float: right;
+}
+
+.angel {
+  float:right;
+}
+
+.thirdText {
+  margin-top: 5px;
+}
